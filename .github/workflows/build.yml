@@ -64,7 +64,7 @@ jobs:
         run: "./gradlew lint${{ matrix.target }}"
 
       - name: "Upload APK Artifact"
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: "GmsCore-${{ matrix.target }}"
           path: "**/build/outputs/apk/**/*.apk"
