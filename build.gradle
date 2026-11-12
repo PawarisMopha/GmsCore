@@ -33,7 +33,7 @@ buildscript {
     ext.ktorVersion = '2.3.12'
     ext.wireVersion = '6.2.0'
     ext.tinkVersion = '1.13.0'
-    ext.guavaVersion = '33.5.0-android'
+    ext.guavaVersion = '33.7.1-android'
 
     ext.androidBuildGradleVersion = '8.13.2'
 
